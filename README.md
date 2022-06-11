@@ -16,12 +16,10 @@ the Data Structures course. You will use the following 11 ADTs.
   11. Hash table (unordered_map) in STL
 
 
-To store elements in the above mentioned ADTs, generate a random array/vector of size 100,000 using the std::shuffle
-function (http://www.cplusplus.com/reference/algorithm/shuffle/).
+std::shuffle function (http://www.cplusplus.com/reference/algorithm/shuffle/).
 
-Perform the following functions on each of the 11 ADTs and measure the time taken. You can use chrono
-(http://www.cplusplus.com/reference/chrono/steady_clock/ ) for measuring the execution time. Make sure that same
-numbers are used for all the ADTs:
+chrono: (http://www.cplusplus.com/reference/chrono/steady_clock/ ) for measuring the execution time.
+Same numbers are used for all the ADTs:
   1. Insert
   2. Delete (random 10,000 elements which exist in the array)
   3. Search (random 10,000 elements which do not existing in the array).
